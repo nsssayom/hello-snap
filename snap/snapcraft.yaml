@@ -1,0 +1,17 @@
+name: hello-snap
+version: '0.1'
+summary: A simple "Hello, Snap!" program
+description: |
+  A simple "Hello, Snap!" program in C++
+
+base: core18
+grade: devel
+
+apps:
+  hello-snap:
+    command: hello-snap
+
+parts:
+  local:
+    plugin: make
+    source: .
