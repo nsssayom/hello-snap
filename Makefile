@@ -1,7 +1,8 @@
 # create a makefile to compile main.cpp
 
 # define the compiler
-CC = g++
+# CC = g++
+CC = aarch64-linux-gnu-g++
 
 # define the compiler flags
 CFLAGS = -Wall -g
